@@ -1,0 +1,14 @@
+{
+  "name": "Unikraft C++ development environment",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "remoteUser": "root",
+  "hostRequirements": {
+      "cpus": 4,
+      "memory": "8gb",
+      "storage": "32gb"
+  }
+}
+
